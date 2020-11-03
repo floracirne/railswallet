@@ -1,28 +1,25 @@
 en:
+  current_locale: 'English (International)'
   welcome: 'Welcome!'
   messages:
-    welcome: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies.'
-    menu: 'To begin, select one of the options below:'
-    confirm: 'Are you sure??'
+    welcome: 'This is the Crypto Wallet, an app that you can register and keep up with your cryptocoins.'
+    menu: 'To start, choose an option below:'
+    confirm: 'Are you sure?'
+  hello: 'Hello world'
   links:
     edit: 'Edit'
     show: 'Show'
+    delete: 'Delete'
+    new: 'New'
     back: 'Back'
-    new_mining_type: 'New Mining Type'
-    new_coin: 'New Coin'
-    destroy: 'Destroy'
     menu: 'Menu'
-  texto:
-    description: 'Description'
-    acronym: 'Acronym'
-    image: 'Image'
-    url_image: 'Url Image'
-    updated_at: 'Updated_At'
-  title:
-    mining_type: 'Mining Types'
-    coins: 'Coins'
-    coin: 'Coin'
-    edit_coin: 'Editing Coin'
-    new_mining_type: 'New Mining Type'
-    edit_mining_type: 'Editing Mining Type'
-  actions: action_show
+  new:
+    coin: 'New Coin'
+    mining_type: 'New Mining Type'
+  editing:
+    coin: 'Editing Coin'
+    mining_type: 'Editing Mining Type'
+  showing:
+    coin: 'Showing Coin'
+    mining_type: 'Showing Mining Type'
+  selected: 'Select'
