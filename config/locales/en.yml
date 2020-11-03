@@ -1,0 +1,28 @@
+en:
+  links:
+    edit: 'Edit'
+    show: 'Show'
+    back: 'Back'
+    new_mining_type: 'New Mining Type'
+    new_coin: 'New Coin'
+    destroy: 'Destroy'
+    menu: 'Menu'
+  texto:
+    description: 'Description'
+    acronym: 'Acronym'
+    image: 'Image'
+    url_image: 'Url Image'
+    updated_at: 'Updated_At'
+  title:
+    mining_type: 'Mining Types'
+    coins: 'Coins'
+    coin: 'Coin'
+    edit_coin: 'Editing Coin'
+    new_mining_type: 'New Mining Type'
+    edit_mining_type: 'Editing Mining Type'
+  msg:
+    confirm: 'Do you want to Delete?'
+    welcome_1: 'Welcome!!!!'
+    welcome_2: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies.'
+    welcome_3: 'To begin, select one of the options below:'
+  actions: action_show
