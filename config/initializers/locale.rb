@@ -2,4 +2,4 @@
 I18n.available_locales = [:en, "pt-BR"]
 
 # Difine idioma padrão
-I18n.default_locale = "pt-BR"
+I18n.default_locale = :en
