@@ -15,10 +15,10 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w( cable.js
                                                   coins.js
                                                   mining_types.js
-                                                  welcome.js ) if Rails.env.development?
+                                                  welcome.js ) 
                                                 
 Rails.application.config.assets.precompile += %w( coins.css
                                                   app.css
                                                   mining_types.css
                                                   scaffolds.css
-                                                  welcome.css ) if Rails.env.development?
+                                                  welcome.css ) 
