@@ -4,9 +4,14 @@ module ApplicationHelper
        I18n.locale == :en ? "Estados Unidos": "Português do Brasil"
     end
     
-    def dateFormatter date_us
-        date = date_us.strftime("%d/%m/%Y")
-        date << date_us.strftime(" %R")
+    def date_formatter date_us
+        if I18n.locale == :en then
+            date = date_us.strftime("%Y/%m/%d")
+            date << date_us.strftime(" %R")
+        else
+            date = date_us.strftime("%d/%m/%Y")
+            date << date_us.strftime(" %R")
+        end
     end
     def ambiente_rails
             if (Rails.env.development?)

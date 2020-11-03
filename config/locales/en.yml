@@ -1,4 +1,9 @@
 en:
+  welcome: 'Welcome!'
+  messages:
+    welcome: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies.'
+    menu: 'To begin, select one of the options below:'
+    confirm: 'Are you sure??'
   links:
     edit: 'Edit'
     show: 'Show'
@@ -20,9 +25,4 @@ en:
     edit_coin: 'Editing Coin'
     new_mining_type: 'New Mining Type'
     edit_mining_type: 'Editing Mining Type'
-  msg:
-    confirm: 'Do you want to Delete?'
-    welcome_1: 'Welcome!!!!'
-    welcome_2: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies.'
-    welcome_3: 'To begin, select one of the options below:'
   actions: action_show

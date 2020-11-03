@@ -23,12 +23,12 @@
       <td><%= coin.description %></td>
       <td><%= coin.acronym %></td>
       <td><%= image_tag coin.url_image, size: "25x25" %></td>
-      <td><%= dateFormatter coin.updated_at %></td>
+      <td><%= date_formatter coin.updated_at %></td>
       <td><%= coin.mining_type.description %></td>
       <td><%= link_to t('links.show'), coin, class: 'btn btn-outline-info btn-sm' %></td>
       <td><%= link_to t('links.edit'), edit_coin_path(coin), class:'btn btn-outline-warning btn-sm' %></td>
       <td>
-        <%= link_to t('links.destroy'), coin, method: :delete, data: { confirm: 'Do you want to Delete?' }, class:"btn btn-outline-danger btn-sm" %>
+        <%= link_to t('links.destroy'), coin, method: :delete, data: { confirm: t('messages.confirm') }, class:"btn btn-outline-danger btn-sm" %>
       </td>
     </tr>
     <% end %>

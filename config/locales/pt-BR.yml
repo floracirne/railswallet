@@ -1,4 +1,9 @@
 'pt-BR':
+  welcome: 'Seja Bem-Vindo!'
+  messages:
+    welcome: 'Este é o Crypto Wallet, um app para você cadastrar e acompanhar as suas criptomoedas.'
+    menu: 'Para começar, selecione uma das opções abaixo:'
+    confirm: 'Tem certeza?'
   links:
     edit: 'Editar'
     show: 'Mostrar'
@@ -20,9 +25,4 @@
     edit_coin: 'Editando Moeda'
     new_mining_type: 'Novo Tipo de Miniração'
     edit_mining_type: 'Editando Tipo de Miniração'
-  msg:
-    confirm: 'Você quer deletar?'
-    welcome_1: 'Seja Bem-Vindo!!!'
-    welcome_2: 'Este é o Crypto Wallet, um app para você cadastrar e acompanhar as suas criptomoedas.'
-    welcome_3: 'Para começar, selecione uma das opções abaixo:'
   actions: action_show

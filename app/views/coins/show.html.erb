@@ -24,7 +24,8 @@
 
     <div class="form-group">
       <%= label_tag nil, @coin.class.human_attribute_name(:updated_at) %>
-      <%= text_field_tag nil, @coin.updated_at, class:"form-control" %>
+      <% date = date_formatter @coin.updated_at %>
+      <%= text_field_tag nil, date, class:"form-control" %>
     </div>
   </fieldset>
 </form>
