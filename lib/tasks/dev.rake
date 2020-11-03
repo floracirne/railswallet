@@ -15,7 +15,7 @@ namespace :dev do
   end
   
   desc "Cadastra as moedas"
-  task add_coins: :environment do
+  task add_coins: do
       show_spinner("Cadastrando moedas...") do
         coins = [
             {
@@ -50,7 +50,7 @@ namespace :dev do
   end
   
   desc "Cadastra os Tipos de Mineração"
-  task add_mining_types: :environment do
+  task add_mining_types: do
       show_spinner("Cadastrando Tipos de Mineração...") do
           mining_types = [
             {
