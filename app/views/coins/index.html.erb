@@ -26,7 +26,7 @@
       <td><%= date_formatter coin.updated_at %></td>
       <td><%= coin.mining_type.description %></td>
       <td><%= link_to t('links.show'), coin, class: 'btn btn-outline-info btn-sm' %></td>
-      <td><%= link_to t('links.edit'), edit_coin_path(coin), class:'btn btn-warning btn-sm' %></td>
+      <td><%= link_to t('links.edit'), edit_coin_path(coin), class:'btn btn-outline-warning btn-sm' %></td>
       <td>
         <%= link_to t('links.delete'), coin, method: :delete, data: { confirm: t('messages.confirm') }, class:"btn btn-outline-danger btn-sm" %>
       </td>
